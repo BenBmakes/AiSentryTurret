@@ -23,7 +23,8 @@ then using wood or mechano build a u shape big enough to mount the two servos an
 
 Before running the code make sure you have: 
 * edited the python code to have the same COM port as the arduino
-* downloaded the files 'coco.names' , 'yolov3-tiny.cfg' and 'yolov3-tiny.weights' from the internet and put them in the same folder as the python script schould look like this ![what you need](https://github.com/BenBmakes/AiSentryTurret/assets/169482343/3196b28b-d040-4280-bb76-044fe33b7cfb)
+* downloaded the files 'coco.names' , 'yolov3-tiny.cfg' and 'yolov3-tiny.weights' from the internet and put them in the same folder as the python script schould look like this
+ ![what you need](https://github.com/BenBmakes/AiSentryTurret/assets/169482343/3196b28b-d040-4280-bb76-044fe33b7cfb)
 
 if the up and down movment is reversed edit the arduino code to remove: 
 servo1.write(servo1Value);
